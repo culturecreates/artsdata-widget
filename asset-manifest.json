@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/artsdata-widget/static/css/main.dd0b5305.chunk.css",
+    "main.js": "/artsdata-widget/static/js/main.89c1cb37.chunk.js",
+    "main.js.map": "/artsdata-widget/static/js/main.89c1cb37.chunk.js.map",
+    "runtime~main.js": "/artsdata-widget/static/js/runtime~main.87bf1406.js",
+    "runtime~main.js.map": "/artsdata-widget/static/js/runtime~main.87bf1406.js.map",
+    "static/css/2.2085ef74.chunk.css": "/artsdata-widget/static/css/2.2085ef74.chunk.css",
+    "static/js/2.efe93bc6.chunk.js": "/artsdata-widget/static/js/2.efe93bc6.chunk.js",
+    "static/js/2.efe93bc6.chunk.js.map": "/artsdata-widget/static/js/2.efe93bc6.chunk.js.map",
+    "index.html": "/artsdata-widget/index.html",
+    "precache-manifest.6d2db8447de16da261cbde8922e5fb43.js": "/artsdata-widget/precache-manifest.6d2db8447de16da261cbde8922e5fb43.js",
+    "service-worker.js": "/artsdata-widget/service-worker.js",
+    "static/css/2.2085ef74.chunk.css.map": "/artsdata-widget/static/css/2.2085ef74.chunk.css.map",
+    "static/css/main.dd0b5305.chunk.css.map": "/artsdata-widget/static/css/main.dd0b5305.chunk.css.map",
+    "static/media/bootstrap.min.css": "/artsdata-widget/static/media/glyphicons-halflings-regular.fa277232.woff"
+  }
+}
