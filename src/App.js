@@ -9,11 +9,13 @@ import { HashRouter, Route } from "react-router-dom";
 
 function TableTab({style }) {
 
-   return (<div className="tabContent" style={style}>
-        <p>This table lists stats from Wikidata
-        </p>
-         <FeatureTable> 
-                  </FeatureTable>
+   return (
+   <div className="tabContent" style={style}>
+      <h3>LDFI Contributions to Wikidata</h3>
+      <p>This table lists datasets motivated by LDFI to enrich data in Wikidata.
+        It counts the entities enriched with data from the dataset.         </p>
+      <FeatureTable /> 
+         
     </div>);
 }
 
@@ -33,10 +35,9 @@ export default class App extends React.Component {
     return (
     <HashRouter>
       <div className="App" style={{margin: '20px'}}>
-        <h1>Artsdata Widget</h1>
         <p style={{float: 'right'}}><a href="https://github.com/culturecreates/artsdata-widget">Source repository</a></p>
         <ul className="nav nav-tabs">
-            <TabLink to="/" title="Statistics" exact="true" />
+            <TabLink to="/" title="LDFI Wikidata" exact="true" />
             <TabLink to="/client/" title="More" />
         </ul>
         <Route exact path="/" children={({ match }) =>
