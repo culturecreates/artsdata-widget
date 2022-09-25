@@ -1,10 +1,9 @@
 Artsdata Widget
 =================================
 
-This application is developed with React and calls the various Artsdata Services API directly from the browser.
+This application is developed with React and calls the various Artsdata Services APIs and SPARQL endpoints directly from the browser.
 
 It can be used at:
-
 https://culturecreates.github.io/artsdata-widget/
 
 ## Available Scripts
@@ -37,6 +36,5 @@ Your app is ready to be deployed!
 ### `npm run deploy`
 
 Deploys the web app on GitHub Pages. It will become available at:
-
 https://culturecreates.github.io/artsdata-widget/
 
