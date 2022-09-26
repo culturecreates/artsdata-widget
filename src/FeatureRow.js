@@ -9,7 +9,7 @@ export default class FeatureRow extends React.Component {
   render() {
     return (
       <tr>
-        <td><a href={this.dataset}>{this.nameCell()}</a></td>
+        <td><a href={this.props.dataset}>{this.nameCell()}</a></td>
         <td>{this.props.typeLabel}</td>
         <td>{this.props.count}</td>
       </tr>

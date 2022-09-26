@@ -30,7 +30,7 @@ export default class FeatureTable extends React.Component {
       '  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }\n' +
       "}\n" +
       "group by  ?dataset ?datasetLabel ?typeLabel " +
-      "ORDER BY DESC(?datasetLabel)\n";
+      "ORDER BY ?datasetLabel\n";
   }
 
   refreshServicesFromWD = (method) => {
