@@ -11,9 +11,9 @@ function TableTab({ style }) {
     <div className="tabContent" style={style}>
       <h3>LDFI Contributions to Wikidata</h3>
       <p>
-        This table lists datasets in the{" "}
+        This table lists datasets participating in the{" "}
         <a href="https://www.wikidata.org/wiki/Q114171774">LDFI Data Catalog</a>
-        {" "}along with the number of Wikidata entities enriched.
+        {" "}along with the number of Wikidata entities they enriched. Statements added to an entity must have the reference 'stated in (P248)' in order to be included in this table. 
       </p>
       <FeatureTable />
     </div>
