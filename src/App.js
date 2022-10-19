@@ -20,6 +20,15 @@ function TableTab({ style }) {
   );
 }
 
+function CalendarTab({ style }) {
+  return (
+    <div className="tabContent" style={style}>
+      <h3>Calendar</h3>
+       
+    </div>
+  );
+}
+
 export default class App extends React.Component {
   constructor() {
     super();
@@ -43,13 +52,20 @@ export default class App extends React.Component {
           </p>
           <ul className="nav nav-tabs">
             <TabLink to="/" title="LDFI Wikidata" exact="true" />
-            <TabLink to="/client/" title="More" />
+            <TabLink to="/calendar/" title="Calendar"  exact="true"/>
           </ul>
           <Route
             exact
             path="/"
             children={({ match }) => (
               <TableTab style={{ display: match ? "block" : "none" }} />
+            )}
+          />
+           <Route
+            exact
+            path="/calendar/"
+            children={({ match }) => (
+              <CalendarTab style={{ display: match ? "block" : "none" }} />
             )}
           />
         </div>
