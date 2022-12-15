@@ -45,15 +45,16 @@ export default class App extends React.Component {
     return (
       <HashRouter>
         <div className="App" style={{ margin: "20px" }}>
-          <p style={{ float: "right" }}>
-            <a href="https://github.com/culturecreates/artsdata-widget">
-              Source repository
-            </a>
-          </p>
+       
+       
           <ul className="nav nav-tabs">
+        
             <TabLink to="/" title="LDFI Wikidata" exact="true" />
             <TabLink to="/calendar/" title="Calendar"  exact="true"/>
-          </ul>
+            </ul>
+      
+         
+      
           <Route
             exact
             path="/"
