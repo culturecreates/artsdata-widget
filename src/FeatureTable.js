@@ -26,7 +26,7 @@ export default class FeatureTable extends React.Component {
       "SELECT  distinct ?dataset ?datasetLabel (count(distinct ?item) as ?count)  ?typeLabel WHERE {\n" +
       "  wd:Q114171774 wdt:P527 ?dataset .\n" +
       "  optional {  ?item  ?someProperty [ prov:wasDerivedFrom [ pr:P248 ?dataset ] ] ;   wdt:P31/wdt:P279* ?type .\n" +
-      "  filter( ?type = wd:Q43229 || ?type = wd:Q5 || ?type = wd:Q17350442 ) }\n" +
+      "  filter( ?type = wd:Q43229 || ?type = wd:Q5 || ?type = wd:Q17350442 || ?type = wd:Q17538722 ) }\n" +
       '  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }\n' +
       "}\n" +
       "group by  ?dataset ?datasetLabel ?typeLabel " +
